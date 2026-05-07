@@ -1,0 +1,16 @@
++-----------------------------+
+|          Student            |
++-----------------------------+
+| - id: int                   |
+| - fullName: String          |
+| - age: int                  |
+| - gpa: double               |
+| - count: static int         |
+| - MIN_GPA: final double     |
+| - MAX_GPA: final double     |
++-----------------------------+
+| + Student(id, fullName,     |
+|           age, gpa)         |
+| + printInfo(): void         |
+| + getCount(): static int    |
++-----------------------------+
