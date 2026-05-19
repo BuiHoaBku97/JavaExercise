@@ -99,6 +99,7 @@ public class InvoiceManagement {
             String value = getNextInput(message);
             if (value.isEmpty()) {
                 System.out.println("Vui lòng ko để trống !");
+                continue;
             }
             else if ( value.matches("^HD\\d{3}$"))
             {
